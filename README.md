@@ -58,9 +58,13 @@ npm run seed
 
 This creates:
 - **3 users** (1 admin + 1 host + 1 regular user)
-- **15 listings** across India
+- **15 listings** across India (5 by host, 10 by admin)
 - **18 reviews** with ratings
-- **4 bookings** (3 confirmed, 1 cancelled)
+- **5 bookings** (3 confirmed, 1 cancelled, 1 pending)
+- **4 wishlist** entries
+- **1 conversation** with 3 messages
+- **1 pending host request** (for admin approval demo)
+- **4 notifications**
 
 ### 4. Run the App
 
