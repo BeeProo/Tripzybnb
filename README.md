@@ -80,11 +80,11 @@ Visit **http://localhost:5173**
 
 ## Demo Accounts
 
-| Role  | Email                   | Password     | Login Page       |
-|-------|-------------------------|-------------|------------------|
-| Admin | admin@tripzybnb.com     | admin123    | `/login`         |
-| Host  | beepro@user.com         | password123 | `/host/login`    |
-| User  | kishorekumar@user.com   | password123 | `/login`         |
+| Role  | Email                   | Password          | Login Page       |
+|-------|-------------------------|-------------------|------------------|
+| Admin | [EMAIL_ADDRESS]    | [PASSWORD]        | `/login`         |
+| Host  | [EMAIL_ADDRESS]         | [PASSWORD]        | `/host/login`    |
+| User  | [EMAIL_ADDRESS]   | [PASSWORD]        | `/login`         |
 
 ---
 
