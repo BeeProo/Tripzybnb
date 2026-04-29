@@ -1,0 +1,362 @@
+/* ==============================
+   Become a Host Page
+   ============================== */
+.become-host-page {
+  padding-bottom: 60px;
+}
+
+.host-hero {
+  text-align: center;
+  padding: 40px 0 32px;
+}
+
+.host-hero h1 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.host-hero p {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Success Card */
+.host-success-card {
+  text-align: center;
+  padding: 80px 40px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  margin-top: 40px;
+}
+
+.host-success-icon {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.host-success-card h2 {
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+
+.host-success-card p {
+  color: var(--text-secondary);
+  margin-bottom: 24px;
+}
+
+/* Pending Notice */
+.host-pending-notice {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 20px 24px;
+  background: rgba(245, 158, 11, 0.08);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  border-radius: var(--radius-md);
+  margin-bottom: 32px;
+}
+
+.pending-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.host-pending-notice strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.host-pending-notice p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* Requests List */
+.host-requests-section {
+  margin-bottom: 32px;
+}
+
+.host-requests-section h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.host-requests-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.host-request-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 20px;
+  border-radius: var(--radius-md);
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  flex-wrap: wrap;
+}
+
+.request-info {
+  flex: 1;
+  min-width: 200px;
+}
+
+.request-info strong {
+  display: block;
+  font-size: 1rem;
+}
+
+.request-info small {
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+}
+
+.request-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.request-meta small {
+  color: var(--text-light);
+  font-size: 0.75rem;
+}
+
+.request-note {
+  width: 100%;
+  padding: 8px 12px;
+  background: var(--bg-secondary);
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin: 4px 0 0;
+}
+
+/* Multi-Step Form */
+.host-form-container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+}
+
+/* Step Progress */
+.step-progress {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 40px;
+  padding: 0 20px;
+}
+
+.step-dot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  z-index: 2;
+}
+
+.step-dot span {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.9rem;
+  background: var(--bg-secondary);
+  border: 2px solid var(--border);
+  color: var(--text-secondary);
+  transition: all 0.3s ease;
+}
+
+.step-dot.active span {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: white;
+}
+
+.step-dot small {
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.step-dot.active small {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.step-line {
+  position: absolute;
+  top: 18px;
+  left: 40px;
+  right: 40px;
+  height: 3px;
+  background: var(--border);
+  z-index: 1;
+  border-radius: 2px;
+}
+
+.step-line-fill {
+  height: 100%;
+  background: var(--primary);
+  border-radius: 2px;
+  transition: width 0.4s ease;
+}
+
+/* Steps */
+.host-step {
+  min-height: 300px;
+}
+
+.host-step h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+/* Property Type Grid */
+.property-type-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.type-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 16px 8px;
+  border: 2px solid var(--border);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all var(--transition);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  background: var(--bg);
+}
+
+.type-card:hover {
+  border-color: var(--text-secondary);
+}
+
+.type-card.active {
+  border-color: var(--primary);
+  background: rgba(255, 56, 92, 0.05);
+  color: var(--primary);
+}
+
+.type-icon {
+  font-size: 1.5rem;
+}
+
+/* Amenity Select Grid */
+.amenity-select-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.amenity-btn {
+  padding: 8px 16px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-full);
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: all var(--transition);
+  background: var(--bg);
+}
+
+.amenity-btn.active {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+/* Review Summary */
+.review-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.review-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--border-light);
+  font-size: 0.95rem;
+}
+
+.review-row:last-child {
+  border-bottom: none;
+}
+
+.review-row span {
+  color: var(--text-secondary);
+}
+
+.review-note {
+  margin-top: 20px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* Form Actions */
+.host-form-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border-light);
+}
+
+/* Status colors */
+.status-pending {
+  background: rgba(245, 158, 11, 0.1);
+  color: #D97706;
+}
+
+.status-approved {
+  background: rgba(22, 163, 74, 0.1);
+  color: #16A34A;
+}
+
+.status-rejected {
+  background: rgba(220, 38, 38, 0.1);
+  color: #DC2626;
+}
+
+@media (max-width: 768px) {
+  .host-hero h1 { font-size: 1.8rem; }
+  .host-form-container { padding: 24px; }
+  .property-type-grid { grid-template-columns: repeat(2, 1fr); }
+  .form-row { grid-template-columns: 1fr !important; }
+  .step-dot small { display: none; }
+}

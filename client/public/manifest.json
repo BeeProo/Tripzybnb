@@ -1,0 +1,22 @@
+{
+  "name": "Tripzybnb",
+  "short_name": "Tripzybnb",
+  "description": "Find your perfect stay — Discover unique homes, hotels, and experiences across India",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FF385C",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["travel", "lifestyle", "booking"],
+  "lang": "en",
+  "dir": "ltr"
+}
